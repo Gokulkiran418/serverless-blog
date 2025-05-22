@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+.next/
+out/
+*.log
+.DS_Store
+
+# Vercel
+.vercel
+
+# Misc
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
