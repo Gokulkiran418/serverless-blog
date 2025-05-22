@@ -8,10 +8,28 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#F7FAFC", // Soft white
-        primary: "#2DD4BF", // Teal
-        text: "#4A5568", // Dark gray
-        secondary: "#E2E8F0", // Light gray
+        background: "#F9FAFB", // Soft white
+        primary: "#14B8A6", // Teal
+        text: "#1F2A44", // Charcoal gray
+        secondary: "#E5E7EB", // Warm gray
+        accent: "#F472B6", // Coral
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
+      animation: {
+        "fade-in": "fadeIn 0.5s ease-in",
+        "slide-up": "slideUp 0.5s ease-out",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        slideUp: {
+          "0%": { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
       },
     },
   },
