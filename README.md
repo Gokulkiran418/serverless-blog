@@ -8,10 +8,11 @@ A serverless blog platform built with Next.js and Tailwind CSS, with Vercel-depl
 
 ## Features
 - Responsive homepage with blog title and placeholder post list.
-- Elegant navbar with logo and links.
+- Elegant navbar with logo and "Home" link.
 - Post cards with title, excerpt, and "Read More" link.
-- Light color palette (soft white, teal, charcoal gray, warm gray, coral).
-- Animations: Fade-in title, slide-up post cards, hover effects.
+- Light color palette (soft white `#F9FAFB`, teal `#14B8A6`, charcoal gray `#1F2A44`, warm gray `#E5E7EB`, coral `#F472B6`).
+- Animations: Fade-in title, slide-up post cards, hover effects (shadow, color change).
+- Responsive design for mobile, tablet, and desktop.
 
 ## Setup
 1. Install: `npm install`
