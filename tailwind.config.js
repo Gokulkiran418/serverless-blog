@@ -10,8 +10,8 @@ module.exports = {
       colors: {
         background: "#F9FAFB",
         primary: "#14B8A6",
-        text: "#1F2A44",
-        secondary: "#E5E7EB",
+        text: "#007F73",
+        secondary: "black",
         accent: "#F472B6",
       },
       fontFamily: {
